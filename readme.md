@@ -1,4 +1,4 @@
-# Frontend Playground
+# 🧩 Frontend Experiments
 Um repositório dedicado a testes, experimentos e pequenos estudos de HTML, CSS e JavaScript (DOM). Aqui eu pratico novas técnicas, conceitos avançados, microcomponentes e layouts, sem a pressão de criar projetos completos.
 
 ---
