@@ -39,3 +39,8 @@ Quando um experimento evolui para algo maior, ele ganha um repositório próprio
 - **HTML5**
 - **CSS3 (Flexbox, Grid, Animações)**
 - **JavaScript (DOM)**
+
+---
+
+## 🌱 Em constante evolução
+Este repositório será atualizado sempre que eu aprender algo novo ou praticar algum conceito de front-end.
