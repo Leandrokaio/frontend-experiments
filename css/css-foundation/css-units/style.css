@@ -1,0 +1,19 @@
+/* UNIDADE "em" */
+/* UNIDADE QUE SE BASEIA NO ELEMENTO PAI */
+.pai{
+    font-size: 50px;
+}
+p{
+    font-size: 1em;
+}
+
+/* UNIDADE "rem" */
+/* UNIDADE QUE SE BASEIA NO ELEMENTO ROOT DO DOCUMENTO */
+
+html{
+    font-size: 20px;
+}
+
+.pai2 p{
+    font-size: 1rem;
+}
