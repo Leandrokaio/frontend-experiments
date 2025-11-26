@@ -1,5 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* USANDO CONTENT-BOX O CONTEÚDO SOMA MAIS 40PX DE CADA LADO, FAZENDO O
+QUADRADO AUMENTAR
+ */
+
+ /* CONTENT-BOX ATRIBUI O TAMANHO DOS ELEMENTOS COM BASE NO CONTEÚDO  */
+
+.element{
+    background-color: rebeccapurple;
+    height: 100px;
+    width: 100px;
+
+    padding: 10px;
+    border: 10px solid red;
+    margin: 10px;
+    box-sizing: content-box;
 }
+
+/* O USO DO BORDER-BOX FAZ COM QUE O ELEMENTO OCUPE O TAMANHO QUE FOI DEFINIDO */
+
+/* BORDER-BOX ATRIBUI O TAMANHO LEVANDO EM CONSIDERAÇÃO O BOX-MODEL */
+
+.parent{
+    border: solid 10px #3da6c8;
+    height: 150px;
+    width: 200px;
+}
+
+.child{
+    background-color: rgb(72, 200, 61);
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 10px solid tomato;
+}
+
