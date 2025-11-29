@@ -160,3 +160,24 @@ body{
     color: #dc2626;
 }
 
+
+@media screen and (max-width: 1024px) {
+    #img{
+        display: none
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #container{
+        width: 100vw;
+        height: 100vh;
+    }
+    #calculator{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        justify-content: center;
+    }
+}
