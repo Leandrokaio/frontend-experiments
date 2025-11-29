@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/javascript/dom/imc-calculator/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="/javascript/dom/imc-calculator/script.js"></script>
     <title>Calculadora IMC</title>
 </head>
 <body>
@@ -17,14 +16,14 @@
         </section>
 
         <section id="calculator">
-            <form action="#" id="form">
+            <form id="form">
                 <h1 id="title">Calculadora - IMC</h1>
 
             <div class="input-box">
                 <label for="weight">Peso em Kg</label>
                 <div class="input-field">
                     <i class="fa-solid fa-weight-hanging"></i>
-                    <input type="number" id="weight" required>
+                    <input type="number" name="weight" id="weight" required>
                     <span>Kg</span>
                 </div>
             </div>
@@ -33,7 +32,7 @@
                 <label for="height">Altura em Metros</label>
                 <div class="input-field">
                     <i class="fa-solid fa-ruler"></i>
-                    <input type="number" id="weight" required>
+                    <input type="number" name="height" step="0.01" id="height" required>
                     <span>m</span>
                 </div>
             </div>
@@ -45,7 +44,7 @@
             <div id="infos" class="hidden">
                 <div id="result">
                     <div id="bmi">
-                        <span id="value"></span>
+                        <span id="value">55</span>
                         <span>Seu IMC</span>
                     </div>
                     <div id="description">
@@ -54,10 +53,11 @@
                 </div>
 
                 <div id="more_info">
-                    <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">Mais informações sobre o IMC <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm" target="_blank">Mais informações sobre o IMC <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </section>
     </main>
+    <script src="/javascript/dom/imc-calculator/assets/js/script.js"></script>
 </body>
 </html>

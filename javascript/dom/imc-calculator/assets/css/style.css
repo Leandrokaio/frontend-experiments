@@ -151,3 +151,12 @@ body{
 .hidden{
     display: none;
 }
+
+.normal{
+    color: #16a34a;
+}
+
+.attetion{
+    color: #dc2626;
+}
+
