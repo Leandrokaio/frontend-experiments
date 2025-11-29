@@ -36,7 +36,7 @@ form.addEventListener('submit', (event =>{
         default:
             description += 'Cuidado! Você está com obesidade morbida!';
     }
-    console.log(bmi)
+    
     value.textContent = bmi.replace('.', ',')
     document.getElementById('description').textContent = description;
 
