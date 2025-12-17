@@ -90,3 +90,28 @@ h1{
     color: var(--claro);
     font-size: 1.5rem;
 }
+
+#sobre {
+    padding: 6rem 2rem;
+}
+
+.sobre-titulo {
+    font-size: 3rem;
+    color: var(--claro);
+    text-align: center;
+}
+
+.sobre-mim {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.sobre-mim-texto {
+    text-align: center;
+    font-size: 1.2rem;
+}
