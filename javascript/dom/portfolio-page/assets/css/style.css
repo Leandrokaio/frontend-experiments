@@ -45,11 +45,12 @@ body {
     font-weight: 500;
     position: relative;
     padding: .5rem 0;
+    font-size: 1.2rem;
 }
 
 .menu-link::after {
     content: '';
-    height: 2px;
+    height: 3px;
     width: 0;
     position: absolute;
     bottom: 0;
